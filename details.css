@@ -77,7 +77,7 @@
   }
 
   .box{
-    height: 60vh;
+    height: 120vh;
     width: 60%;
     margin: auto;
     /* margin-top: 1em; */
@@ -89,6 +89,222 @@
     font-weight: 800;
     font-size: 30px;
   }
+  .details{
+    /* border: solid; */
+    width:90%;
+    margin: auto;
+  }
+  .start{
+    border: solid 1px #fff;
+    background-color: #fff;
+    height: 6vh;
+    width: 5em;
+    text-align: start;
+    padding: 0.5em;
+    outline-color:#01aef0 ;
+    
+
+  }
+  .first{
+    border: solid 1px #fff;
+    background-color: #fff;
+    height: 6vh;
+    width: 15em;
+    text-align: start;
+    padding: 0.5em;
+    outline-color:#01aef0 ;
+    
+
+  }
+  .last{
+    border: solid 1px #fff;
+    background-color: #fff;
+    height: 6vh;
+    width: 15em;
+    text-align: start;
+    padding: 0.5em;
+    outline-color:#01aef0 ;
+    
+
+  }
+ 
+  .spill{
+    margin: auto !important;
+    margin-top: 2em !important;
+    width:90%;
+    /* outline: none; */
+  }
+  .mail{
+    outline-color:#01aef0 ;
+    border: solid 1px #fff;
+    background-color: #fff;
+    height: 6vh;
+    width: 22em;
+    text-align: start;
+    padding: 0.5em;
+
+  }
+  .num{
+    /* outline: none; */
+    outline-color:#01aef0 ;
+    border: solid 1px #fff;
+    background-color: #fff;
+    height: 6vh;
+    width: 22em;
+    text-align: start;
+    padding: 0.5em;
+
+  }
+  .liner{
+    width: 90%;
+    margin: auto;
+    margin-top: 3em;
+    color: #999 !important;
+    height: 5vh !important;
+  }
+  .lay{
+    margin: auto !important;
+    margin-top: 1em !important;
+    width:90%;
+    display: flex !important;
+    justify-content: space-between !important;
+    /* display: flex !important;
+    justify-content: space-between !important; */
+  }
+  .find_btn{
+    border: solid 1px #01aef0;
+    background-color: #01aef0;
+    height: 6vh;
+    width: 10em;
+    text-align: start;
+    padding: 0.5em;
+    /* outline: none; */
+    margin-top: 2em;
+    color:#fff;
+
+  }
+  .post{
+    border: solid 1px #fff;
+    background-color: #fff;
+    height: 6vh;
+    width: 36em;
+    text-align: start;
+    padding: 0.5em;
+    /* outline: none; */
+    outline-color:#01aef0 ;
+
+
+  }
+   .header-4{
+    /* text-transform: uppercase; */
+    width: 90%;
+    color: #01aef0;
+  margin-left: 1.7em;
+  margin-top: 1em;
+    padding: 0em;
+  }
+  .header-4:hover{
+    cursor: pointer;
+    text-decoration: solid 1px #01aef0 ;
+  }
+  .liner-2{
+    width: 90%;
+    margin: auto;
+    margin-top: 1em !important;
+    color: #999 !important;
+    height: 5vh !important;
+  }
+
+  .add{
+    margin: auto !important;
+    margin-top: 0.2em !important;
+    width:90%;
+  
+  }
+  .add-1{
+    width: 45em;
+    border: solid 1px #fff;
+    background-color: #fff;
+    height: 6vh;
+    text-align: start;
+    padding: 0.5em;
+    outline-color:#01aef0 ;
+  }
+  .hide{ 
+    display: none;
+  }
+  
+  .postal{
+    margin: auto !important;
+    margin-top: 0.8em !important;
+    width:90%;
+  }
+  .code{
+    width: 22em;
+    border: solid 1px #fff;
+    background-color: #fff;
+    height: 6vh;
+    text-align: start;
+        padding: 0.5em;
+    outline-color:#01aef0 ;
+  }
+  .splash{
+    margin: auto !important;
+    margin-top: 0.8em !important;
+    width:90%;
+  }
+.count{
+    width: 22em;
+    border: solid 1px #fff;
+    background-color: #fff;
+    height: 6vh;
+    text-align: start;
+        padding: 0.5em;
+    outline-color:#01aef0 ; 
+}
+.para{
+    width: 80%;
+    margin: auto;
+}
+.para p{
+    color: #999;
+}
+.caps-1{
+    background-color: #fff;
+    width: 8em;
+    height: 8vh;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #999;
+
+}
+.caps-1:hover{
+    background-color: #f2f2f2;
+}
+.caps-2{
+    background-color: #01aef0;
+    width: 8em;
+    height: 8vh;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+
+}
+.caps-2:hover{
+    background-color: #4badea;
+}
+
+
+
+
+
+
+
+
 @media(max-width:762px) {
     .container{
       height: 20vh;
@@ -140,10 +356,125 @@
       content: none;
     }
     .box{
-        height: 100vh;
+        height: 180vh;
         width: 100%;
         margin: auto;
         /* margin-top: 1em; */
         background-color: #f4f4f4;
+      }
+      .details{
+        width:95%;
+        margin: auto;
+      }
+      .start{
+        border: solid 1px #fff;
+        background-color: #fff;
+        height: 6vh;
+        width: 95%;
+        text-align: start;
+        padding: 0.5em;
+
+    
+      }
+      .first{
+        border: solid 1px #fff;
+        background-color: #fff;
+        height: 6vh;
+        width: 95%;
+        text-align: start;
+        padding: 0.5em;
+
+      }
+      .last{
+        border: solid 1px #fff;
+        background-color: #fff;
+        height: 6vh;
+        width: 95%;
+        text-align: start;
+        padding: 0.5em;
+
+      }
+      .spill{
+        width:95%;
+        margin: auto;
+        margin-top: 0em !important;
+      }
+      .mail{
+        border: solid 1px #fff;
+        background-color: #fff;
+        height: 6vh;
+        width: 95%;
+        text-align: start;
+        padding: 0.5em;
+
+
+      }
+      .num{
+        border: solid 1px #fff;
+        background-color: #fff;
+        height: 6vh;
+        width: 95%;
+        text-align: start;
+        padding: 0.5em;
+      }
+      .lay{
+        margin: auto !important;
+        margin-top: 0.5em !important;
+        width:90%;
+        display: flex !important;
+        justify-content: space-between !important;
+      }
+      .find_btn{
+        border: solid 1px #01aef0;
+        background-color: #01aef0;
+        height: 6vh;
+        width: 7em;
+        text-align: start;
+        padding: 0.5em;
+        outline: none;
+        margin-top: 2em;
+        color:#fff;
+    
+      }
+      .post{
+        border: solid 1px #fff;
+        background-color: #fff;
+        height: 6vh;
+        width: 13.6em;
+        text-align: start;
+        padding: 0.5em;
+    outline-color:#01aef0 ;
+      }
+      .add{
+        margin: auto !important;
+        margin-top: 0.2em !important;
+        width:90%;
+      
+      }
+      .add-1{
+        width: 95%;
+        border: solid 1px #fff;
+        background-color: #fff;
+        height: 6vh;
+        text-align: start;
+        padding: 0.5em;
+        outline-color:#01aef0 ;
+      }
+      .header-4{
+        /* text-transform: uppercase; */
+        width: 90%;
+        color: #01aef0;
+      margin-left: 1.5em;
+      margin-top: 1em;
+        padding: 0em;
+      }
+      label{
+        margin-top: 0.5em;
+      }
+      .code{
+        width: 95%;
+      }
+      .count{
+        width: 95%;
       }
 }
