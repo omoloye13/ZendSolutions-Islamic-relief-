@@ -100,3 +100,55 @@
     font-weight: 800;
     font-size: 30px;
   }
+  @media (max-width:762px) {
+    .container{
+        height: 20vh;
+        padding: 2em !important;
+    
+    }
+    .timeline li:before {
+      content: counter(step);
+      counter-increment: step;
+      width: 35px;
+      height: 35px;
+      display: block;
+      border-radius: 100%;
+      border: 5px solid #f2f3f4;
+      margin: 0 auto 10px auto;  
+      background: #f2f3f4;
+    }
+    
+      .timeline {
+        list-style: none;
+        counter-reset: step;
+        display: flex;
+        justify-content: center !important; 
+        align-items: center;
+      }
+      
+      .timeline li{
+        width: 5em;
+        /* padding: 0.5em; */
+         text-align: center;
+          font-size: 15px;
+          font-weight: 400;
+          padding: 0px !important;
+      }
+      .timeline li:after {
+        content: '';
+        width: 28%;
+        height: 5px;
+        background: #f3f3f3;
+        display: block;
+        position: absolute;
+       z-index: -1;
+        top: 6.5em;
+       margin-left: 1.4em;
+       
+    
+      }
+      .timeline li:last-child:after {
+        content: none;
+      }
+    
+  }
